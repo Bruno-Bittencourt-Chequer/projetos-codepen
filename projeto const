@@ -1,0 +1,8 @@
+const aula = {
+  matéria: "Desenvolvimeto WEB",
+  turno: " manhã"
+}
+
+aula.professor = "Eduardo Mangeli";
+
+console.log(aula);
