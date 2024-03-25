@@ -1,0 +1,16 @@
+let array=[1,2,3,4,5];
+let primeiroElemento=array[0];
+let segundoElemento=array[1];
+let tamanhodoarray=array.length
+array.push(6,7);
+let ultimonumero=array.pop()
+let removendoprimeiro=array.shift();
+let colocandonumero=array.unshift(0)
+
+
+
+console.log("array",array);
+console.log("primeiroElemento:",primeiroElemento);
+console.log("segundoElemento",segundoElemento);
+console.log("tamanhodoarray",tamanhodoarray);
+
