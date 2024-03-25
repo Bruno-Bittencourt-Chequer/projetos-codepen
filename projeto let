@@ -1,0 +1,16 @@
+function returnTurma() {
+
+   let Turma  = 'Desenvolvimento WEB';
+
+    if (Turma === 'Desenvolvimento WEB') {
+
+        let Turma = 'Projeto Front-End';
+
+        console.log('Dentro do if: ' + Turma);
+
+    }
+     console.log('Fora do if: ' + Turma);
+  
+  }
+  
+  returnTurma();
